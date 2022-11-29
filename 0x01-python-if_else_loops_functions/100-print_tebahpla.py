@@ -6,4 +6,4 @@ for n in range(ord('z'), ord('a') - 1, -1):
         n += diff
     alternate = not alternate
     c = chr(n)
-    print(c, end='')
+    print("{}".format(c), end='')

@@ -6,5 +6,5 @@ def uppercase(str):
             # difference between 'a' and 'A'
             diff = ord('A') - ord('a')
             c = chr(ord(c) + diff)
-        print(c, end='')
+        print("{}".format(c), end='')
     print()
