@@ -1,0 +1,53 @@
+>>> text_indentation = __import__('5-text_indentation').text_indentation
+
+1. Not a string
+
+>>> text_indentation(None)
+Traceback (most recent call last):
+TypeError: text must be a string
+
+2. Empty string
+
+>>> text_indentation("")
+<BLANKLINE>
+
+3. Leading spaces
+
+>>> text_indentation("   Yo!!  ")
+Yo!!  
+<BLANKLINE>
+
+4. '.'
+
+>>> text_indentation("Hello.    World")
+Hello.
+<BLANKLINE>
+World
+<BLANKLINE>
+
+5. '?'
+
+>>> text_indentation("How much do you want to be worth? A million dollars")
+How much do you want to be worth?
+<BLANKLINE>
+A million dollars
+<BLANKLINE>
+
+6. ':'
+
+>>> text_indentation("I have a couple of goals: To be rich, To be very rich")
+I have couple of goals:
+<BLANKLINE>
+To be rich, To be very rich
+<BLANKLINE>
+
+7. ".?:"
+>>> text_indentation("Do you have goals? I have a couple of goals: To be rich. To be extremely rich")
+Do you have goals?
+<BLANKLINE>
+I have a couple of goals:
+<BLANKLINE>
+To be rich.
+<BLANKLINE>
+To be extremely rich
+<BLANKLINE>
