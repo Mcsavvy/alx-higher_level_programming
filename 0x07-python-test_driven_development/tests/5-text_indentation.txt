@@ -15,7 +15,6 @@ TypeError: text must be a string
 
 >>> text_indentation("   Yo!!  ")
 Yo!!  
-<BLANKLINE>
 
 4. '.'
 
@@ -23,7 +22,6 @@ Yo!!
 Hello.
 <BLANKLINE>
 World
-<BLANKLINE>
 
 5. '?'
 
@@ -31,15 +29,13 @@ World
 How much do you want to be worth?
 <BLANKLINE>
 A million dollars
-<BLANKLINE>
 
 6. ':'
 
 >>> text_indentation("I have a couple of goals: To be rich, To be very rich")
-I have couple of goals:
+I have a couple of goals:
 <BLANKLINE>
 To be rich, To be very rich
-<BLANKLINE>
 
 7. ".?:"
 >>> text_indentation("Do you have goals? I have a couple of goals: To be rich. To be extremely rich")
@@ -50,4 +46,3 @@ I have a couple of goals:
 To be rich.
 <BLANKLINE>
 To be extremely rich
-<BLANKLINE>

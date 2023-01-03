@@ -1,12 +1,8 @@
+#!/usr/bin/python3
+"""Unittest for max_integer([..])
+"""
 import unittest
-
-"""
-This file contains a test case for a function
-that finds and returns the max integer in a list
-"""
-
 max_integer = __import__("6-max_integer").max_integer
-
 
 class TextMaxInteger(unittest.TestCase):
     """
