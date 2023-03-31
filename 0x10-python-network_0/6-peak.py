@@ -1,4 +1,4 @@
-#/usr/bin/python3
+#!/usr/bin/python3
 """
 This file contains a function that gets the peak number in a list
 """
