@@ -13,4 +13,4 @@ if __name__ == "__main__":
         content = response.text
         print("Body response:")
         print(f"\t- type: {type(content)}")
-        print(f"\t- content: {content!r}")
+        print(f"\t- content: {content}")
