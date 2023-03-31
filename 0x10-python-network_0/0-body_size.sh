@@ -1,3 +1,3 @@
 #/bin/bash
 # printing the size of an http response
-echo $(curl -sI $1 | grep 'content-length' | cut -d ' ' --fields=2)
+curl -sI $1 | grep -i 'content-length' | cut -d ' ' -f2
