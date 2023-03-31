@@ -1,5 +1,7 @@
 #!/usr/bin/python3
-# This script lists the 10 most recent commit from a repo
+"""
+This script lists the 10 most recent commit from a repo
+"""
 
 if __name__ == "__main__":
     import sys
